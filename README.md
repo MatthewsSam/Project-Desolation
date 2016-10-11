@@ -1,3 +1,3 @@
-# godot-horrorgame
+# Projet Desolation
 
-The objective of this project is to create a horror game with Godot Engine
+The objective of this project is to create a basic horror game with Godot to showcase the possibilities of the 3D engine
