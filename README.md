@@ -9,3 +9,5 @@ Due to the limited amount of ressources it would be better to keep everything si
 3. limited weapons but all projectiles
 4. only a few zombie models
 5. simple gui/hud
+6. All textures/models would be preferably avaliable at the highest resolution possible (for an eventual future Godot 3.0 demo)
+7. Levels probably in closed space (hospital, mansion, space station ?)
