@@ -11,7 +11,7 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="24">
+			<string_array  len="28">
 				<string> "world" </string>
 				<string> "_import_transform" </string>
 				<string> "Spatial" </string>
@@ -36,30 +36,39 @@
 				<string> "shadow/max_distance" </string>
 				<string> "shadow/split_weight" </string>
 				<string> "shadow/zoffset_scale" </string>
+				<string> "zombie_police_m" </string>
+				<string> "zombie_police_m1" </string>
+				<string> "zombie_police_m2" </string>
+				<string> "zombie_police_m3" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 3 </int>
+			<int> 6 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="65"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 2147483647, 2, 1, 0, 0, 0, 0, 3, 3, -1, 21, 1, 0, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 8, 11, 8, 12, 5, 13, 9, 14, 10, 15, 9, 16, 11, 17, 7, 18, 12, 19, 6, 20, 6, 21, 9, 22, 13, 23, 14, 0 </int_array>
+			<int_array  len="94"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 3, 3, -1, 21, 1, 0, 4, 1, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 7, 12, 4, 13, 8, 14, 9, 15, 8, 16, 10, 17, 11, 18, 12, 19, 5, 20, 5, 21, 8, 22, 13, 23, 14, 0, 0, 0, 2147483647, 24, 15, 1, 4, 16, 0, 0, 0, 2147483647, 25, 15, 1, 4, 17, 0, 0, 0, 2147483647, 26, 15, 1, 4, 18, 0, 0, 0, 2147483647, 27, 15, 1, 4, 19, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="15" shared="false">
+			<array  len="20" shared="false">
 				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
-				<resource  external="0">  </resource>
 				<transform> 1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 15, 15 </transform>
 				<int> 1 </int>
 				<bool> True </bool>
 				<bool> False </bool>
 				<int> 0 </int>
-				<real> 1 </real>
+				<real> 5 </real>
 				<color> 1, 1, 1, 1 </color>
 				<real> 0 </real>
 				<real> 0.05 </real>
 				<real> 60 </real>
+				<real> 1 </real>
 				<resource name=""></resource>				<real> 0.5 </real>
 				<real> 2 </real>
+				<resource  external="0">  </resource>
+				<transform> 0.856051, 0, -0.516891, 0, 1, 0, 0.516891, 0, 0.856051, 2.89445, 0, 0 </transform>
+				<transform> -0.320259, 0, -0.94733, 0, 1, 0, 0.94733, 0, -0.320259, 2.89445, 0, 3.19541 </transform>
+				<transform> -0.154591, 0, 0.987979, 0, 1, 0, -0.987979, 0, -0.154591, -5.5354, 0, 3.19541 </transform>
+				<transform> 0.187722, 0, 0.982222, 0, 1, 0, -0.982222, 0, 0.187722, -1.01875, 0, -0.527537 </transform>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>
