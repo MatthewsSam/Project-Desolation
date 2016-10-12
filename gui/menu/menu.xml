@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="5" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://gui/menu/mission_log/mission_log.xml" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://gui/menu/merchant/merchant.xml" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://gui/menu/mission/mission.xml" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://gui/menu/container/container.xml" type="PackedScene" index="0"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="11">
+				<string> "menu" </string>
+				<string> "Node" </string>
+				<string> "container" </string>
+				<string> "visibility/visible" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "merchant" </string>
+				<string> "mission" </string>
+				<string> "mission_log" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 5 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="73"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 2147483647, 2, 0, 5, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 0, 0, 0, 2147483647, 8, 4, 5, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 0, 0, 0, 2147483647, 9, 5, 5, 3, 1, 4, 6, 5, 2, 6, 7, 7, 3, 0, 0, 0, 2147483647, 10, 8, 4, 4, 2, 5, 2, 6, 3, 7, 3, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="9" shared="false">
+				<resource  external="0">  </resource>
+				<bool> False </bool>
+				<real> 40 </real>
+				<real> 80 </real>
+				<resource  external="1">  </resource>
+				<resource  external="2">  </resource>
+				<real> 640 </real>
+				<real> 680 </real>
+				<resource  external="3">  </resource>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

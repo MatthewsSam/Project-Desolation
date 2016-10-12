@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="5" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://gui/menu/mission/foot.xml" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://gui/asset/graphic/96x96_000000.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://gui/asset/graphic/96x96_FFFFFF.png" type="Texture" index="0"></ext_resource>
+	<ext_resource path="res://gui/asset/font/Open_Sans/OpenSans-Light_30pt.fnt" type="BitmapFont" index="2"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="40">
+				<string> "mission" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "Control" </string>
+				<string> "frame" </string>
+				<string> "editor/display_folded" </string>
+				<string> "rect/min_size" </string>
+				<string> "Container" </string>
+				<string> "border" </string>
+				<string> "visibility/opacity" </string>
+				<string> "texture" </string>
+				<string> "expand" </string>
+				<string> "stretch_mode" </string>
+				<string> "TextureFrame" </string>
+				<string> "head_bg" </string>
+				<string> "body_bg" </string>
+				<string> "foot_bg" </string>
+				<string> "canvas" </string>
+				<string> "head" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "text" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
+				<string> "Label" </string>
+				<string> "body" </string>
+				<string> "scroll/horizontal" </string>
+				<string> "scroll/vertical" </string>
+				<string> "ScrollContainer" </string>
+				<string> "alignment" </string>
+				<string> "VBoxContainer" </string>
+				<string> "s1" </string>
+				<string> "foot" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 12 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="324"> 				-1, -1, 9, 0, -1, 8, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 3, 7, 4, 8, 4, 0, 0, 0, 13, 10, -1, 10, 11, 1, 12, 5, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 3, 7, 4, 8, 4, 0, 1, 0, 19, 14, -1, 12, 15, 6, 1, 1, 2, 1, 3, 2, 4, 2, 5, 3, 6, 3, 7, 7, 8, 7, 16, 8, 17, 1, 18, 9, 0, 1, 0, 19, 20, -1, 12, 15, 10, 1, 1, 2, 1, 3, 2, 4, 2, 5, 11, 6, 11, 7, 12, 8, 13, 16, 14, 17, 1, 18, 9, 0, 1, 0, 19, 21, -1, 12, 15, 6, 1, 1, 2, 1, 3, 2, 4, 2, 5, 11, 6, 13, 7, 12, 8, 15, 16, 14, 17, 1, 18, 9, 0, 1, 0, 19, 22, -1, 12, 15, 10, 1, 1, 2, 1, 3, 2, 4, 2, 5, 11, 6, 15, 7, 12, 8, 12, 16, 14, 17, 1, 18, 9, 0, 0, 0, 13, 23, -1, 9, 12, 16, 1, 0, 2, 1, 3, 2, 4, 2, 5, 11, 6, 11, 7, 12, 8, 12, 0, 6, 0, 31, 24, -1, 14, 1, 1, 2, 1, 3, 2, 4, 9, 5, 17, 6, 17, 7, 18, 8, 19, 25, 20, 26, 21, 27, 1, 28, 22, 29, 9, 30, 23, 0, 6, 0, 35, 32, -1, 10, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 24, 7, 25, 8, 26, 33, 1, 34, 1, 0, 8, 0, 37, 23, -1, 10, 12, 27, 1, 0, 2, 0, 3, 2, 4, 2, 5, 17, 6, 28, 7, 29, 8, 30, 36, 9, 0, 9, 0, 13, 38, -1, 9, 12, 31, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 3, 7, 29, 8, 32, 0, 6, 0, 2147483647, 39, 33, 2, 6, 26, 8, 25, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="34" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+				<int> 2 </int>
+				<real> 0 </real>
+				<real> 40 </real>
+				<vector2> 512, 512 </vector2>
+				<real> 0.5 </real>
+				<real> 512 </real>
+				<resource  external="0">  </resource>
+				<int> 0 </int>
+				<real> 0.75 </real>
+				<real> 4 </real>
+				<real> 508 </real>
+				<real> 76 </real>
+				<resource  external="1">  </resource>
+				<real> 436 </real>
+				<vector2> 504, 504 </vector2>
+				<real> 20 </real>
+				<real> 60 </real>
+				<real> 34 </real>
+				<resource  external="2">  </resource>
+				<string> "Mission" </string>
+				<real> 1 </real>
+				<int> -1 </int>
+				<real> 72 </real>
+				<real> 504 </real>
+				<real> 432 </real>
+				<vector2> 440, 380 </vector2>
+				<real> -0 </real>
+				<real> 440 </real>
+				<real> 380 </real>
+				<vector2> 440, 128 </vector2>
+				<real> 128 </real>
+				<resource  external="3">  </resource>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
