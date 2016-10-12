@@ -11,4 +11,4 @@ Due to the limited amount of ressources it would be better to keep everything si
 5. simple gui/hud
 6. All textures/models would be preferably avaliable at the highest resolution possible (for an eventual future Godot 3.0 demo)
 7. Levels in a closed environement
-8. After some discusion, it will be probably in a steampunk lab/greenhouse
+8. Located in a steampunk lab/greenhouse/botanical garden
