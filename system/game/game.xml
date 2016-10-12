@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="3" version="2.1" version_name="Godot Engine v2.1.stable.official">
-	<ext_resource path="res://player/camera/camera3d.xml" type="PackedScene" index="1"></ext_resource>
 	<ext_resource path="res://world/world3d.xml" type="PackedScene" index="0"></ext_resource>
+	<ext_resource path="res://player/camera/camera3d.xml" type="PackedScene" index="1"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -30,7 +30,7 @@
 			<array  len="3" shared="false">
 				<resource  external="0">  </resource>
 				<resource  external="1">  </resource>
-				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.997081, 2.90716 </transform>
+				<transform> 1, 0, 0, 0, 0.986954, 0.161001, 0, -0.161001, 0.986954, 0, 1.39199, 3.58466 </transform>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>
