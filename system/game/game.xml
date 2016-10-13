@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="3" version="2.1" version_name="Godot Engine v2.1.stable.official">
-	<ext_resource path="res://player/player.xml" type="PackedScene" index="1"></ext_resource>
-	<ext_resource path="res://world/world.xml" type="PackedScene" index="0"></ext_resource>
+<resource_file type="PackedScene" subresource_count="4" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://player/player.xml" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://world/world.xml" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://gui/hud/hud.xml" type="PackedScene" index="0"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -12,25 +13,27 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="5">
+			<string_array  len="6">
 				<string> "game" </string>
 				<string> "Node" </string>
+				<string> "hud" </string>
 				<string> "world" </string>
 				<string> "player" </string>
 				<string> "transform/local" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 3 </int>
+			<int> 4 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="23"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 2147483647, 2, 0, 0, 0, 0, 0, 2147483647, 3, 1, 1, 4, 2, 0 </int_array>
+			<int_array  len="30"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 2147483647, 2, 0, 0, 0, 0, 0, 2147483647, 3, 1, 0, 0, 0, 0, 2147483647, 4, 2, 1, 5, 3, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="3" shared="false">
+			<array  len="4" shared="false">
 				<resource  external="0">  </resource>
 				<resource  external="1">  </resource>
-				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 </transform>
+				<resource  external="2">  </resource>
+				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 </transform>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>
