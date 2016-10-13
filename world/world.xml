@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="3" version="2.1" version_name="Godot Engine v2.1.stable.official">
-	<ext_resource path="res://player/player.xml" type="PackedScene" index="1"></ext_resource>
-	<ext_resource path="res://world/world.xml" type="PackedScene" index="0"></ext_resource>
+<resource_file type="PackedScene" subresource_count="2" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://world/location/TEST.xml" type="PackedScene" index="0"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -13,22 +12,22 @@
 			</array>
 			<string> "names" </string>
 			<string_array  len="4">
-				<string> "game" </string>
-				<string> "Node" </string>
 				<string> "world" </string>
-				<string> "player" </string>
+				<string> "_import_transform" </string>
+				<string> "Spatial" </string>
+				<string> "TEST" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 3 </int>
+			<int> 2 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="21"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 2147483647, 2, 0, 0, 0, 0, 0, 2147483647, 3, 1, 0, 0 </int_array>
+			<int_array  len="16"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 2147483647, 3, 1, 0, 0 </int_array>
 			<string> "variants" </string>
 			<array  len="2" shared="false">
+				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
 				<resource  external="0">  </resource>
-				<resource  external="1">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>

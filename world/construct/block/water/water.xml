@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="2" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://world/construct/block/water/water_001_plane.msh" type="Mesh" index="0"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="22">
+				<string> "water" </string>
+				<string> "_import_transform" </string>
+				<string> "Spatial" </string>
+				<string> "001" </string>
+				<string> "layers" </string>
+				<string> "geometry/visible" </string>
+				<string> "geometry/material_override" </string>
+				<string> "geometry/cast_shadow" </string>
+				<string> "geometry/receive_shadows" </string>
+				<string> "geometry/range_begin" </string>
+				<string> "geometry/range_end" </string>
+				<string> "geometry/extra_cull_margin" </string>
+				<string> "geometry/billboard" </string>
+				<string> "geometry/billboard_y" </string>
+				<string> "geometry/depth_scale" </string>
+				<string> "geometry/visible_in_all_rooms" </string>
+				<string> "geometry/use_baked_light" </string>
+				<string> "geometry/baked_light_tex_id" </string>
+				<string> "mesh/mesh" </string>
+				<string> "mesh/skeleton" </string>
+				<string> "material/0" </string>
+				<string> "MeshInstance" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 2 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="52"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 21, 3, -1, 18, 1, 0, 4, 1, 5, 2, 6, 3, 7, 1, 8, 2, 9, 4, 10, 4, 11, 4, 12, 5, 13, 5, 14, 5, 15, 5, 16, 5, 17, 6, 18, 7, 19, 8, 20, 3, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="9" shared="false">
+				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
+				<int> 1 </int>
+				<bool> True </bool>
+				<resource name=""></resource>				<real> 0 </real>
+				<bool> False </bool>
+				<int> 0 </int>
+				<resource  external="0">  </resource>
+				<node_path> ".." </node_path>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="2" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://world/construct/block/base/base.tres" type="MeshLibrary" index="0"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="37">
+				<string> "TEST" </string>
+				<string> "_import_transform" </string>
+				<string> "Spatial" </string>
+				<string> "sunlight" </string>
+				<string> "transform/local" </string>
+				<string> "layers" </string>
+				<string> "params/enabled" </string>
+				<string> "params/editor_only" </string>
+				<string> "params/bake_mode" </string>
+				<string> "params/energy" </string>
+				<string> "colors/diffuse" </string>
+				<string> "colors/specular" </string>
+				<string> "shadow/shadow" </string>
+				<string> "shadow/darkening" </string>
+				<string> "shadow/z_offset" </string>
+				<string> "shadow/z_slope_scale" </string>
+				<string> "shadow/esm_multiplier" </string>
+				<string> "shadow/blur_passes" </string>
+				<string> "projector" </string>
+				<string> "operator" </string>
+				<string> "shadow/mode" </string>
+				<string> "shadow/max_distance" </string>
+				<string> "shadow/split_weight" </string>
+				<string> "shadow/zoffset_scale" </string>
+				<string> "DirectionalLight" </string>
+				<string> "GridMap" </string>
+				<string> "theme/theme" </string>
+				<string> "theme/bake" </string>
+				<string> "lighting/bake" </string>
+				<string> "cell/size" </string>
+				<string> "cell/octant_size" </string>
+				<string> "cell/center_x" </string>
+				<string> "cell/center_y" </string>
+				<string> "cell/center_z" </string>
+				<string> "cell/scale" </string>
+				<string> "data" </string>
+				<string> "__meta__" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 3 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="89"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 24, 3, -1, 21, 1, 0, 4, 1, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 7, 12, 3, 13, 8, 14, 9, 15, 8, 16, 10, 17, 6, 18, 11, 19, 5, 20, 12, 21, 8, 22, 13, 23, 14, 0, 0, 0, 25, 25, -1, 12, 1, 0, 26, 15, 27, 4, 28, 4, 29, 14, 30, 16, 31, 3, 32, 3, 33, 3, 34, 6, 35, 17, 36, 18, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="19" shared="false">
+				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
+				<transform> 1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0 </transform>
+				<int> 1 </int>
+				<bool> True </bool>
+				<bool> False </bool>
+				<int> 0 </int>
+				<real> 1 </real>
+				<color> 1, 1, 1, 1 </color>
+				<real> 0 </real>
+				<real> 0.05 </real>
+				<real> 60 </real>
+				<resource name=""></resource>				<int> 3 </int>
+				<real> 0.5 </real>
+				<real> 2 </real>
+				<resource  external="0">  </resource>
+				<int> 4 </int>
+				<dictionary  shared="false">
+					<string> "cells" </string>
+					<int_array  len="324"> 						0, 0, 2, 1, 0, 2, 2, 0, 2, 3, 0, 2, 4, 0, 2, 5, 0, 2, 6, 0, 2, 7, 0, 2, 8, 0, 2, 65527, 0, 2, 65528, 0, 2, 65529, 0, 2, 65530, 0, 2, 65531, 0, 2, 65532, 0, 2, 65533, 0, 2, 65534, 0, 2, 65535, 0, 2, 0, 1, 2, 1, 1, 2, 2, 1, 2, 3, 1, 2, 4, 1, 2, 5, 1, 2, 6, 1, 2, 7, 1, 2, 8, 1, 2, 65527, 1, 2, 65528, 1, 2, 65529, 1, 2, 65530, 1, 2, 65531, 1, 2, 65532, 1, 2, 65533, 1, 2, 65534, 1, 2, 65535, 1, 2, 0, 2, 2, 1, 2, 2, 2, 2, 2, 3, 2, 2, 4, 2, 2, 5, 2, 2, 6, 2, 2, 7, 2, 2, 8, 2, 2, 65527, 2, 2, 65528, 2, 2, 65529, 2, 2, 65530, 2, 2, 65531, 2, 2, 65532, 2, 2, 65533, 2, 2, 65534, 2, 2, 65535, 2, 2, 0, 65533, 2, 1, 65533, 2, 2, 65533, 2, 3, 65533, 2, 4, 65533, 2, 5, 65533, 2, 6, 65533, 2, 7, 65533, 2, 8, 65533, 2, 65527, 65533, 2, 65528, 65533, 2, 65529, 65533, 2, 65530, 65533, 2, 65531, 65533, 2, 65532, 65533, 2, 65533, 65533, 2, 65534, 65533, 2, 65535, 65533, 2, 0, 65534, 2, 1, 65534, 2, 2, 65534, 2, 3, 65534, 2, 4, 65534, 2, 5, 65534, 2, 6, 65534, 2, 7, 65534, 2, 8, 65534, 2, 65527, 65534, 2, 65528, 65534, 2, 65529, 65534, 2, 65530, 65534, 2, 65531, 65534, 2, 65532, 65534, 2, 65533, 65534, 2, 65534, 65534, 2, 65535, 65534, 2, 0, 65535, 2, 1, 65535, 2, 2, 65535, 2, 3, 65535, 2, 4, 65535, 2, 5, 65535, 2, 6, 65535, 2, 7, 65535, 2, 8, 65535, 2, 65527, 65535, 2, 65528, 65535, 2, 65529, 65535, 2, 65530, 65535, 2, 65531, 65535, 2, 65532, 65535, 2, 65533, 65535, 2, 65534, 65535, 2, 65535, 65535, 2 </int_array>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_editor_clip_" </string>
+					<int> 0 </int>
+				</dictionary>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
