@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="2" version="2.1" version_name="Godot Engine v2.1.stable.official">
-	<ext_resource path="res://world/location/map_v1.xml" type="PackedScene" index="0"></ext_resource>
+	<ext_resource path="res://world/location/test_map.xml" type="PackedScene" index="0"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
