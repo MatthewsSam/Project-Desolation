@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="11" version="2.1" version_name="Godot Engine v2.1.stable.official">
-	<ext_resource path="res://system/animation/all.xml" type="PackedScene" index="5"></ext_resource>
-	<ext_resource path="res://world/character/zombie/police/m_diffuse.tex" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://world/character/zombie/police/m_specular.tex" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://asset/character/police/m_z_specular.tex" type="Texture" index="2"></ext_resource>
-	<ext_resource path="res://asset/character/police/m_z_diffuse.tex" type="Texture" index="1"></ext_resource>
-	<ext_resource path="res://world/character/zombie/police/model_m.gd" type="Script" index="0"></ext_resource>
+<resource_file type="PackedScene" subresource_count="8" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://system/animation/all.xml" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://assets/character/police/m_z_specular.tex" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://assets/character/police/m_z_diffuse.tex" type="Texture" index="0"></ext_resource>
 	<resource type="FixedMaterial" path="local://1">
 		<string name="resource/name"> "Police_Zombie_MAT" </string>
 		<bool name="flags/visible"> True </bool>
@@ -34,10 +31,10 @@
 		<int name="params/glow"> 0 </int>
 		<real name="params/point_size"> 1 </real>
 		<transform name="uv_xform"> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
-		<resource name="textures/diffuse" external="1">  </resource>
+		<resource name="textures/diffuse" external="0">  </resource>
 		<int name="textures/diffuse_tc"> 0 </int>
 		<resource name="textures/detail"></resource>		<int name="textures/detail_tc"> 0 </int>
-		<resource name="textures/specular" external="2">  </resource>
+		<resource name="textures/specular" external="1">  </resource>
 		<int name="textures/specular_tc"> 0 </int>
 		<resource name="textures/emission"></resource>		<int name="textures/emission_tc"> 0 </int>
 		<resource name="textures/specular_exp"></resource>		<int name="textures/specular_exp_tc"> 0 </int>
@@ -104,10 +101,10 @@
 		<int name="params/glow"> 0 </int>
 		<real name="params/point_size"> 1 </real>
 		<transform name="uv_xform"> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
-		<resource name="textures/diffuse" external="3">  </resource>
+		<resource name="textures/diffuse" external="0">  </resource>
 		<int name="textures/diffuse_tc"> 0 </int>
 		<resource name="textures/detail"></resource>		<int name="textures/detail_tc"> 0 </int>
-		<resource name="textures/specular" external="4">  </resource>
+		<resource name="textures/specular" external="1">  </resource>
 		<int name="textures/specular_tc"> 0 </int>
 		<resource name="textures/emission"></resource>		<int name="textures/emission_tc"> 0 </int>
 		<resource name="textures/specular_exp"></resource>		<int name="textures/specular_exp_tc"> 0 </int>
@@ -156,14 +153,12 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="375">
+			<string_array  len="371">
 				<string> "model" </string>
 				<string> "_import_path" </string>
 				<string> "_import_transform" </string>
-				<string> "script/script" </string>
 				<string> "Spatial" </string>
 				<string> "Skeleton" </string>
-				<string> "editor/display_folded" </string>
 				<string> "bones/0/name" </string>
 				<string> "bones/0/parent" </string>
 				<string> "bones/0/rest" </string>
@@ -529,27 +524,24 @@
 				<string> "material/0" </string>
 				<string> "MeshInstance" </string>
 				<string> "Base" </string>
-				<string> "Skeleton 2" </string>
-				<string> "visibility/visible" </string>
 				<string> "anime" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 6 </int>
+			<int> 5 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="836"> 				-1, -1, 4, 0, -1, 3, 1, 0, 2, 1, 3, 2, 0, 0, 0, 5, 5, -1, 348, 1, 3, 6, 4, 2, 1, 7, 5, 8, 6, 9, 7, 10, 4, 11, 8, 12, 9, 13, 10, 14, 11, 15, 4, 16, 8, 17, 12, 18, 13, 19, 14, 20, 4, 21, 8, 22, 15, 23, 16, 24, 17, 25, 4, 26, 8, 27, 18, 28, 19, 29, 20, 30, 4, 31, 8, 32, 21, 33, 22, 34, 23, 35, 4, 36, 8, 37, 24, 38, 25, 39, 26, 40, 4, 41, 8, 42, 27, 43, 28, 44, 29, 45, 4, 46, 8, 47, 30, 48, 28, 49, 31, 50, 4, 51, 8, 52, 32, 53, 28, 54, 33, 55, 4, 56, 8, 57, 34, 58, 28, 59, 35, 60, 4, 61, 8, 62, 36, 63, 19, 64, 37, 65, 4, 66, 8, 67, 38, 68, 39, 69, 40, 70, 4, 71, 8, 72, 41, 73, 42, 74, 43, 75, 4, 76, 8, 77, 44, 78, 45, 79, 46, 80, 4, 81, 8, 82, 47, 83, 48, 84, 49, 85, 4, 86, 8, 87, 50, 88, 51, 89, 52, 90, 4, 91, 8, 92, 53, 93, 54, 94, 55, 95, 4, 96, 8, 97, 56, 98, 57, 99, 58, 100, 4, 101, 8, 102, 59, 103, 48, 104, 60, 105, 4, 106, 8, 107, 61, 108, 62, 109, 63, 110, 4, 111, 8, 112, 64, 113, 65, 114, 66, 115, 4, 116, 8, 117, 67, 118, 68, 119, 69, 120, 4, 121, 8, 122, 70, 123, 48, 124, 71, 125, 4, 126, 8, 127, 72, 128, 73, 129, 74, 130, 4, 131, 8, 132, 75, 133, 76, 134, 77, 135, 4, 136, 8, 137, 78, 138, 79, 139, 80, 140, 4, 141, 8, 142, 81, 143, 48, 144, 82, 145, 4, 146, 8, 147, 83, 148, 84, 149, 85, 150, 4, 151, 8, 152, 86, 153, 87, 154, 88, 155, 4, 156, 8, 157, 89, 158, 90, 159, 91, 160, 4, 161, 8, 162, 92, 163, 48, 164, 93, 165, 4, 166, 8, 167, 94, 168, 95, 169, 96, 170, 4, 171, 8, 172, 97, 173, 98, 174, 99, 175, 4, 176, 8, 177, 100, 178, 101, 179, 102, 180, 4, 181, 8, 182, 103, 183, 19, 184, 104, 185, 4, 186, 8, 187, 105, 188, 106, 189, 107, 190, 4, 191, 8, 192, 108, 193, 109, 194, 110, 195, 4, 196, 8, 197, 111, 198, 112, 199, 113, 200, 4, 201, 8, 202, 114, 203, 115, 204, 116, 205, 4, 206, 8, 207, 117, 208, 118, 209, 119, 210, 4, 211, 8, 212, 120, 213, 121, 214, 122, 215, 4, 216, 8, 217, 123, 218, 124, 219, 125, 220, 4, 221, 8, 222, 126, 223, 115, 224, 127, 225, 4, 226, 8, 227, 128, 228, 129, 229, 130, 230, 4, 231, 8, 232, 131, 233, 132, 234, 133, 235, 4, 236, 8, 237, 134, 238, 135, 239, 136, 240, 4, 241, 8, 242, 137, 243, 115, 244, 138, 245, 4, 246, 8, 247, 139, 248, 140, 249, 141, 250, 4, 251, 8, 252, 142, 253, 143, 254, 144, 255, 4, 256, 8, 257, 145, 258, 146, 259, 147, 260, 4, 261, 8, 262, 148, 263, 115, 264, 149, 265, 4, 266, 8, 267, 150, 268, 151, 269, 152, 270, 4, 271, 8, 272, 153, 273, 154, 274, 155, 275, 4, 276, 8, 277, 156, 278, 157, 279, 158, 280, 4, 281, 8, 282, 159, 283, 115, 284, 160, 285, 4, 286, 8, 287, 161, 288, 162, 289, 163, 290, 4, 291, 8, 292, 164, 293, 165, 294, 166, 295, 4, 296, 8, 297, 167, 298, 168, 299, 169, 300, 4, 301, 8, 302, 170, 303, 10, 304, 171, 305, 4, 306, 8, 307, 172, 308, 173, 309, 174, 310, 4, 311, 8, 312, 175, 313, 176, 314, 177, 315, 4, 316, 8, 317, 178, 318, 179, 319, 180, 320, 4, 321, 8, 322, 181, 323, 182, 324, 183, 325, 4, 326, 8, 327, 184, 328, 10, 329, 185, 330, 4, 331, 8, 332, 186, 333, 187, 334, 188, 335, 4, 336, 8, 337, 189, 338, 190, 339, 191, 340, 4, 341, 8, 342, 192, 343, 193, 344, 194, 345, 4, 346, 8, 347, 195, 348, 196, 349, 197, 350, 4, 351, 8, 0, 1, 0, 370, 352, -1, 19, 1, 198, 2, 1, 353, 13, 354, 4, 355, 199, 356, 13, 357, 4, 358, 200, 359, 200, 360, 200, 361, 201, 362, 201, 363, 201, 364, 201, 365, 4, 366, 10, 367, 202, 368, 203, 369, 199, 0, 1, 0, 370, 371, -1, 19, 1, 204, 2, 1, 353, 13, 354, 4, 355, 199, 356, 13, 357, 4, 358, 200, 359, 200, 360, 200, 361, 201, 362, 201, 363, 201, 364, 201, 365, 4, 366, 10, 367, 205, 368, 203, 369, 199, 0, 0, 0, 5, 372, -1, 8, 1, 206, 2, 1, 373, 201, 7, 207, 8, 6, 9, 1, 10, 4, 11, 8, 0, 0, 0, 2147483647, 374, 208, 0, 0 </int_array>
+			<int_array  len="809"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 4, 4, -1, 347, 1, 2, 2, 1, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 6, 14, 7, 15, 11, 16, 12, 17, 13, 18, 6, 19, 7, 20, 14, 21, 15, 22, 16, 23, 6, 24, 7, 25, 17, 26, 18, 27, 19, 28, 6, 29, 7, 30, 20, 31, 21, 32, 22, 33, 6, 34, 7, 35, 23, 36, 24, 37, 25, 38, 6, 39, 7, 40, 26, 41, 27, 42, 28, 43, 6, 44, 7, 45, 29, 46, 27, 47, 30, 48, 6, 49, 7, 50, 31, 51, 27, 52, 32, 53, 6, 54, 7, 55, 33, 56, 27, 57, 34, 58, 6, 59, 7, 60, 35, 61, 18, 62, 36, 63, 6, 64, 7, 65, 37, 66, 38, 67, 39, 68, 6, 69, 7, 70, 40, 71, 41, 72, 42, 73, 6, 74, 7, 75, 43, 76, 44, 77, 45, 78, 6, 79, 7, 80, 46, 81, 47, 82, 48, 83, 6, 84, 7, 85, 49, 86, 50, 87, 51, 88, 6, 89, 7, 90, 52, 91, 53, 92, 54, 93, 6, 94, 7, 95, 55, 96, 56, 97, 57, 98, 6, 99, 7, 100, 58, 101, 47, 102, 59, 103, 6, 104, 7, 105, 60, 106, 61, 107, 62, 108, 6, 109, 7, 110, 63, 111, 64, 112, 65, 113, 6, 114, 7, 115, 66, 116, 67, 117, 68, 118, 6, 119, 7, 120, 69, 121, 47, 122, 70, 123, 6, 124, 7, 125, 71, 126, 72, 127, 73, 128, 6, 129, 7, 130, 74, 131, 75, 132, 76, 133, 6, 134, 7, 135, 77, 136, 78, 137, 79, 138, 6, 139, 7, 140, 80, 141, 47, 142, 81, 143, 6, 144, 7, 145, 82, 146, 83, 147, 84, 148, 6, 149, 7, 150, 85, 151, 86, 152, 87, 153, 6, 154, 7, 155, 88, 156, 89, 157, 90, 158, 6, 159, 7, 160, 91, 161, 47, 162, 92, 163, 6, 164, 7, 165, 93, 166, 94, 167, 95, 168, 6, 169, 7, 170, 96, 171, 97, 172, 98, 173, 6, 174, 7, 175, 99, 176, 100, 177, 101, 178, 6, 179, 7, 180, 102, 181, 18, 182, 103, 183, 6, 184, 7, 185, 104, 186, 105, 187, 106, 188, 6, 189, 7, 190, 107, 191, 108, 192, 109, 193, 6, 194, 7, 195, 110, 196, 111, 197, 112, 198, 6, 199, 7, 200, 113, 201, 114, 202, 115, 203, 6, 204, 7, 205, 116, 206, 117, 207, 118, 208, 6, 209, 7, 210, 119, 211, 120, 212, 121, 213, 6, 214, 7, 215, 122, 216, 123, 217, 124, 218, 6, 219, 7, 220, 125, 221, 114, 222, 126, 223, 6, 224, 7, 225, 127, 226, 128, 227, 129, 228, 6, 229, 7, 230, 130, 231, 131, 232, 132, 233, 6, 234, 7, 235, 133, 236, 134, 237, 135, 238, 6, 239, 7, 240, 136, 241, 114, 242, 137, 243, 6, 244, 7, 245, 138, 246, 139, 247, 140, 248, 6, 249, 7, 250, 141, 251, 142, 252, 143, 253, 6, 254, 7, 255, 144, 256, 145, 257, 146, 258, 6, 259, 7, 260, 147, 261, 114, 262, 148, 263, 6, 264, 7, 265, 149, 266, 150, 267, 151, 268, 6, 269, 7, 270, 152, 271, 153, 272, 154, 273, 6, 274, 7, 275, 155, 276, 156, 277, 157, 278, 6, 279, 7, 280, 158, 281, 114, 282, 159, 283, 6, 284, 7, 285, 160, 286, 161, 287, 162, 288, 6, 289, 7, 290, 163, 291, 164, 292, 165, 293, 6, 294, 7, 295, 166, 296, 167, 297, 168, 298, 6, 299, 7, 300, 169, 301, 9, 302, 170, 303, 6, 304, 7, 305, 171, 306, 172, 307, 173, 308, 6, 309, 7, 310, 174, 311, 175, 312, 176, 313, 6, 314, 7, 315, 177, 316, 178, 317, 179, 318, 6, 319, 7, 320, 180, 321, 181, 322, 182, 323, 6, 324, 7, 325, 183, 326, 9, 327, 184, 328, 6, 329, 7, 330, 185, 331, 186, 332, 187, 333, 6, 334, 7, 335, 188, 336, 189, 337, 190, 338, 6, 339, 7, 340, 191, 341, 192, 342, 193, 343, 6, 344, 7, 345, 194, 346, 195, 347, 196, 348, 6, 349, 7, 0, 1, 0, 368, 350, -1, 19, 1, 197, 2, 1, 351, 12, 352, 6, 353, 198, 354, 12, 355, 6, 356, 199, 357, 199, 358, 199, 359, 200, 360, 200, 361, 200, 362, 200, 363, 6, 364, 9, 365, 201, 366, 202, 367, 198, 0, 1, 0, 368, 369, -1, 19, 1, 203, 2, 1, 351, 12, 352, 6, 353, 198, 354, 12, 355, 6, 356, 199, 357, 199, 358, 199, 359, 200, 360, 200, 361, 200, 362, 200, 363, 6, 364, 9, 365, 204, 366, 202, 367, 198, 0, 0, 0, 2147483647, 370, 205, 0, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="209" shared="false">
+			<array  len="206" shared="false">
 				<node_path> "." </node_path>
 				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 </transform>
-				<resource  external="0">  </resource>
 				<node_path> "Skeleton" </node_path>
-				<bool> True </bool>
 				<string> "Hips" </string>
 				<int> -1 </int>
 				<transform> 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00742, -0.035967 </transform>
+				<bool> True </bool>
 				<array  len="0" shared="false">
 				</array>
 				<string> "Spine" </string>
@@ -748,9 +740,7 @@
 				<node_path> ".." </node_path>
 				<node_path> "Skeleton/Base" </node_path>
 				<resource  resource_type="Mesh" path="local://4">  </resource>
-				<node_path> "Skeleton 2" </node_path>
-				<string> "Mesh" </string>
-				<resource  external="5">  </resource>
+				<resource  external="2">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>

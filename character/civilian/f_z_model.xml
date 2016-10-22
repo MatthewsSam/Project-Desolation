@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="8" version="2.1" version_name="Godot Engine v2.1.stable.official">
 	<ext_resource path="res://system/animation/all.xml" type="PackedScene" index="2"></ext_resource>
-	<ext_resource path="res://asset/character/civilian/f_z_specular.tex" type="Texture" index="1"></ext_resource>
-	<ext_resource path="res://asset/character/civilian/f_z_diffuse.tex" type="Texture" index="0"></ext_resource>
+	<ext_resource path="res://assets/character/civilian/f_z_specular.tex" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://assets/character/civilian/f_z_diffuse.tex" type="Texture" index="0"></ext_resource>
 	<resource type="FixedMaterial" path="local://1">
 		<string name="resource/name"> "ZombieGirl_Material" </string>
 		<bool name="flags/visible"> True </bool>
